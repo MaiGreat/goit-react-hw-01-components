@@ -1,0 +1,25 @@
+.friend-list {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 16%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 15px;
+    border: 1px solid #808080;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+    width: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
